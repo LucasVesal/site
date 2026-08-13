@@ -25,7 +25,7 @@
 
     <section id="inicio"> <!--APRESENTAÇÃO CYBER KLOWN-->
         <h2>Conheça a CYBER KLOWN</h2>
-        
+
         <img src="cyberklown.png" alt="Imagem da CYBER KLOWN" title="Imagem da CYBER KLOWN" width="400" height="300">
 
         <article>
@@ -39,35 +39,10 @@
             <section id="habilidades">
                 <h3>Habilidades</h3>
             </section>
-            <ul> 
-
-                <section>
-                    <h2>Habilidades</h2>
-                    <li>Desenvolvimento Web</li>
-                    <li>Cibersegurança</li>
-
-                <table> 
-                    <thead>
-                        <tr>
-                            <th>Habilidade</th>
-                            <th>Nível</th>
-                            <th>Descrição</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Desenvolvimento Web</td>
-                            <td>Iniciante</td>
-                            <td>Desenvolvimento de websites e aplicações web modernas.</td>
-                        </tr>
-                        <tr>
-                            <td>Cibersegurança</td>
-                            <td>Iniciante</td>
-                            <td>Análise e implementação de medidas de segurança cibernética.</td>
-                        </tr>
-                    </tbody>
-                </table>
-                 </section>
+            <ul>
+                <li>Desenvolvimento Web</li>
+                <li>Cibersegurança</li>
+            </ul>
 
         </aside>
 
@@ -88,6 +63,34 @@
 
     </section>
 
+    <section>
+        <h2>Habilidades</h2>
+        <li>Desenvolvimento Web</li>
+        <li>Cibersegurança</li>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Habilidade</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Desenvolvimento Web</td>
+                    <td>Iniciante</td>
+                    <td>Desenvolvimento de websites e aplicações web modernas.</td>
+                </tr>
+                <tr>
+                    <td>Cibersegurança</td>
+                    <td>Iniciante</td>
+                    <td>Análise e implementação de medidas de segurança cibernética.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
 
     <section id="contato"> <!--SEÇÃO DE CONTATO-->
 
@@ -102,7 +105,8 @@
             <input type="email" id="email" name="email" required><br>
 
             <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2} [0-9]{4}-[0-9]{4}" placeholder="(00) 0000-0000"><br>
+            <input type="tel" id="telefone" name="telefone" pattern="[0-9]{2} [0-9]{4}-[0-9]{4}"
+                placeholder="(00) 0000-0000"><br>
 
             <label for="assunto">Assunto:</label>
             <select name="assunto" id="assunto">
@@ -112,14 +116,15 @@
                 <option value="sugestao">Sugestão</option>
                 <option value="reclamacao">Reclamação</option>
             </select>
-            
+
             <br>
 
             <label for="mensagem">Mensagem:</label>
-            <textarea name="mensagem" id="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui..."></textarea><br>
+            <textarea name="mensagem" id="mensagem" rows="4" cols="50"
+                placeholder="Digite sua mensagem aqui..."></textarea><br>
 
             <label for="newsletter">Deseja receber nossa newsletter?</label>
-            <input type="checkbox" id="newsletter" name="newsletter"><br>   
+            <input type="checkbox" id="newsletter" name="newsletter"><br>
 
             <button type="submit">Enviar</button><br>
         </form>
